@@ -1,0 +1,15 @@
+@import url("styles/user-card.css");
+@import url("styles/search-input.css");
+@import url("styles/loading.css");
+
+.app {
+  display: grid;
+  padding: 10px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.app .search__data {
+  padding: 10px 40px;
+  grid-column: 1 / -1;
+}

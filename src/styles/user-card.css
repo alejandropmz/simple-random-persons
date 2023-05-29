@@ -1,0 +1,35 @@
+.card {
+  margin: auto;
+  border-radius: 5px;
+  font-family: "Alata", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  background-image: url("https://images.alphacoders.com/123/1239346.png");
+  background-size: cover;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card__section {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.card__section p {
+  margin: 0;
+}
+
+/* media querys */
+
+@media screen and (max-width: 522px) {
+  .card {
+    width: 300px;
+  }
+}
